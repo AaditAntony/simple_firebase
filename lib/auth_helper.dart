@@ -52,7 +52,7 @@ class AuthHelper {
       case 'email-already-in-use':
         return "Email already in use";
       case 'invalid-email':
-        return "Invalid email";
+        return "Email structure is wrong";
       case 'weak-password':
         return "Password is too weak";
       case 'user-not-found':
@@ -60,7 +60,7 @@ class AuthHelper {
       case 'wrong-password':
         return "Incorrect password";
       default:
-        return "Authentication error";
+        return "Authentication Problem ";
     }
   }
 }
